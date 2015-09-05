@@ -1,5 +1,5 @@
-var yieldScraper = require('../lib/yields'),
-    fiis = require('../data/fii'),
+var yieldScraper = require('../../lib/fii/yields'),
+    fiis = require('../../data/fii'),
     fs = require('fs');
 
 var current = 0;
