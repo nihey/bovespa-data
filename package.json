@@ -5,7 +5,9 @@
   "main": "./data/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scrape-history": "node ./scraper/history/index.js"
+    "scrape-history": "node ./scraper/history/index.js",
+    "extract-history": "node ./scraper/history/extract.js",
+    "parse-history": "node ./scraper/history/parse.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,7 @@
     "get-page": "^0.1.0",
     "mkdirp": "^0.5.1",
     "parse-float": "^0.1.0",
-    "pdf-text": "^0.4.0"
+    "pdf-text": "^0.4.0",
+    "unzip": "^0.1.11"
   }
 }

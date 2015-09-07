@@ -3,3 +3,7 @@
 
 # dependencies
 node_modules/
+
+# Files to be built after installation
+data/history/yearly/*.txt
+data/history/yearly/*.json
